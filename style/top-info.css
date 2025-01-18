@@ -1,0 +1,22 @@
+.top-info {
+	background-color: #231815;
+	padding: 14px 0 12px;
+}
+
+.top-info .container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	column-gap: 72px;
+}
+
+.top-info__link {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	.top-info {
+		display: none;
+	}
+}

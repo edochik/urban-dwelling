@@ -1,0 +1,53 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1;
+}
+
+.container {
+	max-width: 1430px;
+	padding: 0 15px;
+	margin: auto;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.visual-hidden {
+	opacity: 0;
+}
+
+@media (max-width:1450px) {
+	.container {
+		max-width: 1270px;
+	}
+
+}
+
+@media (max-width:768px) {
+	.container {
+		padding: 0 44px;
+	}
+}
+
+@media (max-width:390px) {
+	.container {
+		padding: 0 35px;
+	}
+}
