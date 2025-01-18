@@ -115,7 +115,7 @@
 	color: #808080;
 }
 
-@media (max-width:1450px) {
+@media (max-width:1600px) {
 	.cards {
 		padding-bottom: 62px;
 	}
